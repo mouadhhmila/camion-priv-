@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Medium.ttf">
+            <string>Raleway-Medium</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="notificationCamionContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demande de course" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                <rect key="frame" x="0.0" y="20" width="375" height="115"/>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfQ-di-MWl" customClass="MKMapView">
+                                <rect key="frame" x="37.5" y="135" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tfQ-di-MWl" secondAttribute="height" multiplier="1:1" id="lNC-1n-TEy"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxN-ne-mKc">
+                                <rect key="frame" x="0.0" y="550" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.011764705882352941" green="0.58823529411764708" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jtI-oU-GpF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <state key="normal" title="Allez au course">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boufalgha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbc-CF-7JI">
+                                <rect key="frame" x="0.0" y="435" width="375" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="Quv-JV-L9I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="trailing" secondItem="2BE-c3-nQJ" secondAttribute="trailing" id="67V-HA-qiq"/>
+                            <constraint firstItem="tfQ-di-MWl" firstAttribute="width" secondItem="S3S-Oj-5AN" secondAttribute="width" multiplier="0.8" id="7wg-eI-z2N"/>
+                            <constraint firstItem="MxN-ne-mKc" firstAttribute="top" secondItem="hbc-CF-7JI" secondAttribute="bottom" id="8Xo-1l-pKF"/>
+                            <constraint firstItem="hbc-CF-7JI" firstAttribute="trailing" secondItem="2BE-c3-nQJ" secondAttribute="trailing" id="C9b-2X-6pZ"/>
+                            <constraint firstItem="tfQ-di-MWl" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" id="CUy-fa-Byn"/>
+                            <constraint firstItem="hbc-CF-7JI" firstAttribute="height" secondItem="GcN-lo-r42" secondAttribute="height" id="PID-s6-Xif"/>
+                            <constraint firstItem="MxN-ne-mKc" firstAttribute="leading" secondItem="2BE-c3-nQJ" secondAttribute="leading" id="Pes-bI-oLw"/>
+                            <constraint firstItem="MxN-ne-mKc" firstAttribute="trailing" secondItem="2BE-c3-nQJ" secondAttribute="trailing" id="Rbs-ZY-JxE"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="2BE-c3-nQJ" secondAttribute="top" id="TJ6-gm-C6I"/>
+                            <constraint firstItem="MxN-ne-mKc" firstAttribute="bottom" secondItem="2BE-c3-nQJ" secondAttribute="bottom" id="V0a-hu-kg5"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="leading" secondItem="2BE-c3-nQJ" secondAttribute="leading" id="cuh-di-QXW"/>
+                            <constraint firstItem="tfQ-di-MWl" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="gdI-N4-7T4"/>
+                            <constraint firstItem="hbc-CF-7JI" firstAttribute="top" secondItem="tfQ-di-MWl" secondAttribute="bottom" id="iga-av-es5"/>
+                            <constraint firstItem="hbc-CF-7JI" firstAttribute="leading" secondItem="2BE-c3-nQJ" secondAttribute="leading" id="n5j-3m-3fi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2BE-c3-nQJ"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="600"/>
+                    <connections>
+                        <outlet property="label" destination="GcN-lo-r42" id="lpW-cU-7IG"/>
+                        <outlet property="mapView" destination="tfQ-di-MWl" id="Uxy-ES-3C3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

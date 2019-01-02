@@ -1,0 +1,6 @@
+framework module Pods_CamionPrive_ {
+  umbrella header "Pods-CamionPrivé-umbrella.h"
+
+  export *
+  module * { export * }
+}

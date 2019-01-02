@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aVa-of-qVb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qLE-8O-AYk">
+            <objects>
+                <viewController id="aVa-of-qVb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fPg-Zr-ICQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="jdM-rO-sdq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Vs-nY-wfG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_1334" translatesAutoresizingMaskIntoConstraints="NO" id="Ia9-gS-ThQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ia9-gS-ThQ" firstAttribute="top" secondItem="2Vs-nY-wfG" secondAttribute="top" id="2s5-o5-CTw"/>
+                            <constraint firstItem="Ia9-gS-ThQ" firstAttribute="leading" secondItem="2Vs-nY-wfG" secondAttribute="leading" id="5h4-WH-nTo"/>
+                            <constraint firstItem="jdM-rO-sdq" firstAttribute="top" secondItem="Ia9-gS-ThQ" secondAttribute="bottom" id="Vae-w5-C3F"/>
+                            <constraint firstAttribute="trailing" secondItem="Ia9-gS-ThQ" secondAttribute="trailing" id="bNS-lD-H7i"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abv-5Y-OTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90.400000000000006" y="116.00985221674877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_1334" width="375" height="667"/>
+    </resources>
+</document>

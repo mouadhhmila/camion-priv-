@@ -1,0 +1,158 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AMPopTip (2.1.6)
+  - AMWaveTransition (0.6.2)
+  - CountryPickerSwift (1.4.4)
+  - CRToast (0.0.9)
+  - DatePickerDialog (1.1.7)
+  - DGRunkeeperSwitch (1.1.4)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FSCalendar (2.7.9)
+  - FZAccordionTableView (0.2.3)
+  - Google/Analytics (3.1.0):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleAnalytics (3.17.0)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.1)"
+  - GTMSessionFetcher/Core (1.1.11)
+  - JTMaterialTransition (2.0.1)
+  - KeychainSwift (8.0.2)
+  - MMLoadingButton (1.0.4)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - Popover (1.0.6)
+  - PopoverSwift (2.0.2)
+  - SCLAlertView (0.7.0)
+  - SkyFloatingLabelTextField (3.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftSpinner (1.5.0)
+  - SwiftyJSON (3.1.4)
+  - SwiftySound (0.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AMPopTip
+  - AMWaveTransition
+  - CountryPickerSwift
+  - CRToast
+  - DatePickerDialog
+  - DGRunkeeperSwitch (~> 1.1.4)
+  - FirebaseAuth
+  - FSCalendar
+  - FZAccordionTableView
+  - Google/Analytics
+  - GoogleMaps
+  - GooglePlaces
+  - JTMaterialTransition
+  - KeychainSwift
+  - MMLoadingButton
+  - NVActivityIndicatorView
+  - Popover
+  - PopoverSwift
+  - SCLAlertView
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SVProgressHUD
+  - SwiftSpinner
+  - SwiftyJSON
+  - SwiftySound
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AMPopTip
+    - AMWaveTransition
+    - CountryPickerSwift
+    - CRToast
+    - DatePickerDialog
+    - DGRunkeeperSwitch
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FSCalendar
+    - FZAccordionTableView
+    - Google
+    - GoogleAnalytics
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - JTMaterialTransition
+    - KeychainSwift
+    - MMLoadingButton
+    - NVActivityIndicatorView
+    - Popover
+    - PopoverSwift
+    - SCLAlertView
+    - SkyFloatingLabelTextField
+    - SVProgressHUD
+    - SwiftSpinner
+    - SwiftyJSON
+    - SwiftySound
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AMPopTip: 81f57556ae12500d30ff595078b1b6d11076ced8
+  AMWaveTransition: 98952310574779e4ca7e7f4d89f8b1043cdad171
+  CountryPickerSwift: e31e67f2b95eb1fa6ad230e9eb0b49b020526d99
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  DatePickerDialog: bd5e7e92e4da2c6a8966b28d5f5d8f335d6c2c63
+  DGRunkeeperSwitch: cc237936f42237307f5e212e18136a27bf907bf1
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  FZAccordionTableView: e64f49c71c32d750feda14025b088bcd25d1a71f
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  JTMaterialTransition: 2350b44b404d1982a7ba755866cc65da452f4eec
+  KeychainSwift: 213db04dfe7244988e61f77c72a2afb2f775954a
+  MMLoadingButton: 1a40ca827d3514c3233ed4f7a7511ee51c36eeb3
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  Popover: 227aa929a6cdf41c4828786be8ede109c40344c9
+  PopoverSwift: 23abd7ce71f86a6ad6e0fe93ca346714a510c119
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SkyFloatingLabelTextField: 4e2d2f7160af660ed1da6bb9d0027b5c474b4b79
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftySound: bca0bb721690fb65249f4776cb0875abd98e9941
+
+PODFILE CHECKSUM: 7a0f1791431c478c54082782826064dcf205aeb5
+
+COCOAPODS: 1.5.0

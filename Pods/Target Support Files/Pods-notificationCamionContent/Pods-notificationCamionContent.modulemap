@@ -1,0 +1,6 @@
+framework module Pods_notificationCamionContent {
+  umbrella header "Pods-notificationCamionContent-umbrella.h"
+
+  export *
+  module * { export * }
+}
